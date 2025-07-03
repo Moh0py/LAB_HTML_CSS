@@ -19,12 +19,10 @@ body {
       padding: 10px 0;
     }
     nav a {
-      color:#deb887;
+      color: #fff;
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
-      border-bottom: #333 2px solid;
-    
     }
     .hero {
       background-color: #FFD800;
@@ -67,33 +65,32 @@ body {
       border-collapse: collapse;
       text-align: center;
     }
+  .AL_NASSER_audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    padding: 3px;
+    border: 2px solid #080808;
+    border-radius: 8px;
+    background-color: #e0d203;
+  div.title{
+    font-family:sans-serif;
+    font-weight: 300px;
+
+  }
+    
+}
+
     table th, table td {
       border: 1px solid #002A5C;
       padding: 10px;
     }
-    
-   
-    .AL_NASSER_audio{
-      
-      width: 250px;
-      margin: 25px auto;
-      padding: 10px;
-      border: 2px solid #FFD800;
-      border-radius: 8px;
-      background-color: #f9f9f9;
-      text-align: center;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    }
-    .AL_NASSER_audio .title {
-      color: #002A5C;
-      font-size: 20px;
-      margin-bottom: 10px;
-      border-width: solid;
-      border-bottom: #FFD800 2px solid;
-    }
-    audio {
-      width: 200%;
-      outline: none;
+    table th {
+      background-color: #002A5C;
+      color: #fff;
     }
     table tr:nth-child(even) {
       background-color: #eee;
