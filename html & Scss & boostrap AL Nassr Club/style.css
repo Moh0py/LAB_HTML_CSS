@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-image: url("images/nassr.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.navbar-brand img.logo {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-brand img {
+  width: 150px;
+  margin-left: 15px;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 15px; 
+  align-items: center;
+}
+
+.navbar-nav li a {
+  padding: 10px;
+  color: #000000 !important;
+  font-style: oblique;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+}
+
+nav.fa-bars {
+  color: #fff !important;
+  font-size: 26px;
+}
+
+.welcome {
+  padding: 50px 100px;
+  margin-top: -140px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+
+.welcome h1 {
+  color: #333;
+}
+
+.custom-search {
+  position: relative;
+  width: 300px;
+}
+.custom-search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 100px 10px 20px; 
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.custom-search-botton {
+  position: absolute;
+  right: 3px; 
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: #e60808;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 100px;
+  z-index: 2;
+}
+
+.swiper-slide img {
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.swiper-slide p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.mySwiper {
+  direction: rtl;
+}
+
+#banner-carousel {
+  margin-bottom: 40px;
+}
+
+#banner-carousel img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .welcome {
+    padding: 30px;
+    margin-top: -100px;
+  }
+
+  .welcome h1 {
+    font-size: 20px;
+  }
+
+  .welcome .btn-gold {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  #banner-carousel img {
+    max-height: 250px;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    gap: 0;
+  }
+
+  .navbar-nav li a {
+    padding: 8px 0;
+    text-align: right;
+  }
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  flex-direction: column;
+}
+
+/* --------------------About---------------------------- */
+
+#about
+{
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#about .col-md-6
+{
+
+  padding: 20px 10px;
+}
+
+about p
+{
+
+  margin: 20px auto;
+
+
+}
