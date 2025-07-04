@@ -81,7 +81,16 @@ body {
     font-weight: 300px;
 
   }
+  content.p{
+
+    text-align: center ;
+    align-items: center;
+    font-size: x-large;
+    background-image: none;
+    padding: 6px;
+
     
+  }  
 }
 
     table th, table td {
