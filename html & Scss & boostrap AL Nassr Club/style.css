@@ -64,38 +64,7 @@ nav.fa-bars {
   color: #333;
 }
 
-.custom-search {
-  position: relative;
-  width: 300px;
-}
-.custom-search-input {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 100px;
-  padding: 10px 100px 10px 20px; 
-  line-height: 1;
-  box-sizing: border-box;
-  outline: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
 
-}
-.custom-search-botton {
-  position: absolute;
-  right: 3px; 
-  top: 3px;
-  bottom: 3px;
-  border: 0;
-  background: #e60808;
-  color: #fff;
-  outline: none;
-  margin: 0;
-  padding: 0 10px;
-  border-radius: 100px;
-  z-index: 2;
-}
 
 .swiper-slide img {
   max-height: 150px;
@@ -123,20 +92,21 @@ nav.fa-bars {
   border-radius: 8px;
 }
 
-@media (max-width: 768px) {
-  .welcome {
-    padding: 30px;
-    margin-top: -100px;
-  }
+#welcome input.form-control::placeholder {
+  font-style: italic;
+  text-align: center;
+}
 
-  .welcome h1 {
-    font-size: 20px;
-  }
+#welcome button.btn-danger {
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
 
-  .welcome .btn-gold {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
+#welcome button.btn-danger:hover {
+  background-color: #c82333;
+}
+
+
 
   #banner-carousel img {
     max-height: 250px;
@@ -151,7 +121,6 @@ nav.fa-bars {
     padding: 8px 0;
     text-align: right;
   }
-}
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -163,25 +132,15 @@ nav.fa-bars {
   margin-left: calc(-.5 * var(--bs-gutter-x));
   flex-direction: column;
 }
-
-/* --------------------About---------------------------- */
-
-#about
+/* ------------------------------------ */
+#features
 {
 
   padding-top: 100px;
   padding-bottom: 100px;
-}
-#about .col-md-6
-{
-
-  padding: 20px 10px;
-}
-
-about p
-{
-
-  margin: 20px auto;
-
-
+  background: linear-gradient(rgba(223, 201, 5, 0.712),rgba(16, 1, 153, 0.8),url(images/team.jpg));
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ color: aliceblue;
 }
